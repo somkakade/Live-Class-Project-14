@@ -1,0 +1,157 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #cad5e2;
+  background-image: url("./images/left\ banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.col-6 {
+  width: 48%;
+  padding: 0 15px;
+}
+ul.menu-list {
+  display: flex;
+  position: relative;
+}
+li.nav-link {
+  margin-right: 50px;
+}
+li.nav-link a {
+  color: #1d5e5e;
+}
+
+ul.menu-list:before {
+  position: unset;
+  content: "";
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: #53535371;
+  margin-top: 12px;
+  margin-right: 15px;
+}
+a.active {
+  color: #000 !important;
+}
+nav {
+  padding: 25px 0;
+}
+.banner {
+  margin-left: 35%;
+  margin-right: 10%;
+  position: relative;
+}
+h1.creativity-heading {
+  font-size: 100px;
+  line-height: 100px;
+}
+span.tivity {
+  position: absolute;
+  right: 360px;
+}
+h2.is-our {
+  position: absolute;
+  bottom: -55px;
+  color: grey;
+}
+ul.social li {
+  margin-top: 25px;
+}
+.check-our {
+  position: absolute;
+  bottom: -125px;
+  right: 0;
+}
+
+button.btn-package {
+  border: 1px solid #333333;
+  background-color: #333333;
+  color: #fff;
+  padding: 11px 70px;
+  font-size: 16px;
+}
+.bottom-banner {
+  margin-top: 10%;
+  margin-left: 35%;
+  margin-right: 10%;
+  position: relative;
+}
+.thumb img {
+  max-width: 400px;
+}
+.arrow img {
+  max-width: 100px;
+}
+.bottom-banner .col-4 {
+  margin: 30px;
+}
+span.circle {
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-color: #000;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.col-4.photo {
+  position: relative;
+}
+span.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  display: block;
+  background-color: #000;
+  position: absolute;
+  left: -17px;
+}
+.wait li {
+  line-height: 35px;
+}
+.circle::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 95px;
+  background-color: gray;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+.content i {
+  font-size: 30px;
+}
+p.photographer-text {
+  margin: 15px 0;
+}
