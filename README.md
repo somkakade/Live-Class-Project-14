@@ -6,6 +6,6 @@
 
 [Demo Link](https://dancehomepage14thproject.netlify.app/)
 
-##Website Preview
+## Website Preview
 
 ![preview](./images/screencapture-dancehomepage14thproject-netlify-app-2022-09-04-21_57_54.png)
